@@ -1,13 +1,14 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-
+import Navbar from './components/Navbar'
+import Main from './components/Main'
 
 function App() {
-  
   return (
     <>
-      <h1 className='text-3xl font-bold underline'> Hello </h1>
+      <Navbar />
+      <Main />
     </>
   )
 }
